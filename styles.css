@@ -1,0 +1,158 @@
+@charset "utf-8";
+body{
+	width:960px;
+	font-family: roboto;
+	line-height: 1.5;
+}
+.header{
+	font-weight: bold;
+}
+h4{
+	text-align: right;
+	font-size:18px;
+	padding-right:50px;
+}
+h4 a{
+	text-decoration: none;
+	color:black;
+	text-decoration: underline;
+}
+.nav{
+	text-align: left;
+	padding-bottom: 40px;
+}
+#logo{
+	float:left;
+	width:120px;
+	height: 106px;
+	padding:10px 40px;
+}
+ul{
+	list-style:none;
+	font-size: 24px;
+	text-align: left;
+	padding-top:50px;
+	}
+li{
+	display: inline-block;
+}
+li a {
+	color:black;
+	text-align: center;
+	text-decoration: none;
+}
+.li1{
+	border-right:1px solid black;
+	padding-right:20px;
+}
+.li2{
+	padding: 0 20px;
+}
+.li3{
+	border-left:1px solid black;
+	padding-left:20px;
+}
+.hero{
+	box-sizing: border-box;
+	text-align: center;
+    background-image: url("imgs/img-hero.jpg");
+	height:669px;
+}
+.herocontent{
+	padding: 200px 0;
+	height:250px;
+	color:white;
+	width:100%
+}
+.herocontent h1{
+	font-weight:bold;
+	font-size: 60px;
+}
+.herocontent p{
+	font-weight: bold;
+	font-size: 27px;
+	padding-bottom: 20px;
+}
+.button{
+	display: block;
+	border:1px solid red;
+	background-color:#eb382f;
+	padding: 15px 40px;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 black;
+	font-size:23px;
+	margin:50px auto;
+}
+.button a{
+	text-decoration:none;
+	color:white;
+}
+.button:hover{
+	background-color:red;
+}
+.flex{
+	display:flex;
+	justify-content: space-between;
+	font-size:21px;
+	margin:30px auto;
+}
+.box{
+	box-sizing:border-box;
+	flex:none;
+	width:250px;
+	text-align: center;
+}
+.flex h3{
+	font-size:26.25px;
+	font-weight:700;
+}
+.flex p{
+	font-size:21px;
+}
+
+.section{
+	background-image:url("imgs/img-inspired.jpg");
+	text-align: center;
+	color:white;
+	height:420px;
+}
+.section h1{
+		padding-top: 150px;
+	    font-weight:bold;
+	    font-size: 60px;
+}
+
+.footer{
+	text-align: center;
+	font-size:18px;
+}
+.socialmedia{
+	display: flex;
+	align-items:center;
+	padding: 40px 250px;
+}
+.socialmedia a{
+	text-decoration: none;
+	font-size:18px;
+	color:black;
+}
+.socialmedia a:hover{
+	color:blue;
+}
+.socialmedia img{
+	margin:auto 10px auto 20px;
+}
+.socialmedia p{
+	padding:35px auto;
+}
+.copyright{
+	padding-bottom: 2px;
+}
+.bottom a{
+	text-decoration: none;
+	color:black;
+	text-decoration: underline;
+}
+.bottom a:hover{
+	color:red;
+}
